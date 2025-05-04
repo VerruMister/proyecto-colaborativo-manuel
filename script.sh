@@ -9,8 +9,7 @@ read -p "Selecciona una opción: " opcion
 case $opcion in
     1) ls ;;
     2) date ;;
-    3)
-        echo "Esta opción está en construcción."
+    3)	echo "Esta opción está en construcción." "El factorial de $numero es $factorial"
         ;;
     4) echo "Adiós"; exit ;;
     *) echo "Opción no válida";;
